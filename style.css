@@ -171,7 +171,6 @@ p {font-size: 14px;}
     position: absolute;
     top: 250%;
     left: 50%;
-    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
@@ -194,7 +193,6 @@ p {font-size: 14px;}
     position: absolute;
     top: 350%;
     left: 50%;
-    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
@@ -216,7 +214,6 @@ p {font-size: 14px;}
     position: absolute;
     top: 450%;
     left: 50%;
-    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
@@ -273,7 +270,6 @@ input[type=submit]:hover {
     position: absolute;
     top: 550%;
     left: 50%;
-    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
@@ -295,7 +291,6 @@ input[type=submit]:hover {
     position: absolute;
     top: 610%;
     left: 50%;
-    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
