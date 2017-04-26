@@ -30,6 +30,10 @@ jQuery(document).ready(function($) {
 		
 	});
 
+    /* ===== Image Scale ===== */
+    $(function() {
+      $("img.scale").imageScale();
+    });
     
     
     /* ======= Fixed header when scrolled ======= */

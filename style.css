@@ -33,6 +33,10 @@ h1,h2,h3,h4,h5,h6 {
     color: #6f5c43;
 }
 
+p {font-size: 14px;}
+
+
+
 /*------------------------------Navigation------------------------------*/
 
 .sidenav {
@@ -137,14 +141,15 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     top: 150%;
     left: 50%;
+    width: 60vw;
+    height: 70vh;
     transform: translate(-50%, -50%);
 }
 
 #map {
+    display:block;
     width: 100%;
-    height: 450px;
-    margin-left: auto;
-    margin-right: auto;
+    max-height: 100%;
 }
 
 /*------------------------------Menu------------------------------*/
@@ -166,6 +171,7 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     top: 250%;
     left: 50%;
+    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
@@ -181,7 +187,6 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 100px;
 }
-
 .p-workers .container {
     background-color:rgba(255,255,255,.9);
     padding: 20px;
@@ -189,6 +194,29 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     top: 350%;
     left: 50%;
+    height: 90vh;
+    transform: translate(-50%, -50%);
+}
+
+.p-contact {
+    background-image: url('assets/images/mailbox.jpg');
+    background-color: #BBAB8F;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+.p-contact .container {
+    background-color:rgba(255,255,255,.9);
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 450%;
+    left: 50%;
+    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
@@ -243,8 +271,9 @@ input[type=submit]:hover {
     padding: 20px;
     margin: 0 auto;
     position: absolute;
-    top: 450%;
+    top: 550%;
     left: 50%;
+    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
@@ -264,8 +293,9 @@ input[type=submit]:hover {
     padding: 20px;
     margin: 0 auto;
     position: absolute;
-    top: 508%;
+    top: 610%;
     left: 50%;
+    height: 90vh;
     transform: translate(-50%, -50%);
 }
 
