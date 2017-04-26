@@ -1,0 +1,296 @@
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: "Open Sans";
+	vertical-align: baseline;
+}*/
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #6f5c43;
+}
+
+/*------------------------------Navigation------------------------------*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #BBAB8F;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 8px 8px 40px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: lighter;
+    color: #6F5C43;
+    display: block;
+}
+
+.sidenav .nav-item a:hover{
+    color: #181411;
+    background: none;
+}
+
+.sidenav .nav-item a:active{
+    color: #181411;
+    background: none;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    float: left;
+    position: fixed;
+    z-index: 2;
+    background-color:rgba(24,20,17,.7);
+    font-family:"Open Sans";
+    font-size:20px;
+    cursor:pointer;
+    color:#BBAB8F;
+    padding:10px;
+}
+
+
+/*------------------------------Welcome------------------------------*/
+.p-welcome {
+	background-image: url('assets/images/background.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-welcome .container{
+    padding: 0px 0px 0px 300px;
+    padding-top: 15%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.p-welcome .logo-container {
+    background-color:rgba(24,20,17,.7);
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*------------------------------About------------------------------*/
+.p-about {
+    background-image: url('assets/images/hardwick3.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+
+.p-about .container {
+    background-color:rgba(255,255,255,.9);
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------Menu------------------------------*/
+.p-menu {
+    background-image: url('assets/images/farmtable.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+
+.p-menu .container {
+    background-color:rgba(255,255,255,.9);
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*------------------------------Who Are We------------------------------*/
+.p-workers {
+    background-image: url('assets/images/office.jpg');
+    background-color: beige;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+
+.p-workers .container {
+    background-color:rgba(255,255,255,.9);
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*------------------------------Artists------------------------------*/
+.p-artists {
+    background-image: url('assets/images/placeholder.jpg');
+    background-color: aliceblue;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+
+.p-artists .container {
+    background-color:rgba(255,255,255,.9);
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*------------------------------Footer------------------------------*/
+.p-footer {
+    background-image: url('');
+    background-color: #BBAB8F;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-footer .container {
+    background-color:rgba(255,255,255,.9);
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 508%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
