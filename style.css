@@ -144,6 +144,15 @@ p {font-size: 14px;}
     width: 60vw;
     height: 70vh;
     transform: translate(-50%, -50%);
+    width: 800px;
+}
+
+.hardwick4 {
+    background-image: url('assets/images/hardwick4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 20px;
 }
 
 #map {
@@ -172,6 +181,7 @@ p {font-size: 14px;}
     top: 250%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 800px;
 }
 
 /*------------------------------Who Are We------------------------------*/
@@ -194,6 +204,7 @@ p {font-size: 14px;}
     top: 350%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 1000px;
 }
 
 .p-contact {
@@ -215,6 +226,7 @@ p {font-size: 14px;}
     top: 450%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 800px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -271,13 +283,14 @@ input[type=submit]:hover {
     top: 550%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 1000px;
 }
 
 /*------------------------------Footer------------------------------*/
 .p-footer {
     background-image: url('');
     background-color: #BBAB8F;
-    height: 200px;
+    height: 220px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -287,11 +300,12 @@ input[type=submit]:hover {
 .p-footer .container {
     background-color:rgba(255,255,255,.9);
     padding: 20px;
-    margin: 0 auto;
+    margin: 0px 20px 20px 20px;
     position: absolute;
-    top: 610%;
+    top: 608%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 900px;
 }
 
 .fa {

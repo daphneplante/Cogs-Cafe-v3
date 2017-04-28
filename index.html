@@ -66,10 +66,9 @@
                 <hr>
                 <h5>Where are we?</h5>
                 <p>Cog's Café is located in Hardwick, Vermont. A once small farming town in Chittenden County bursting with the potential for bigger and better things.</p>
-                <br>
-                <center>
-                    <img class="scale" data-scale="best-fit-down" data-align="center" src="assets/images/hardwick4.jpg"/>
-                </center>
+                <hr>
+<!--                <img class="scale" data-scale="best-fit-down" data-align="center" src="assets/images/hardwick4.jpg"/>-->
+                <div class="hardwick4"></div>
             </div>
         </div>
 <!---------- Menu -->
@@ -89,17 +88,17 @@
                     <li>Chicken Strips: Free roam chicken, lightly breaded chicken strips</li>
                     <li>Potato Bites: Local grown potatoes, diced and pan fried</li>
                     <li>Fries: Local grown potatoes, deep fried</li>
-                    <li>Breakfast Sandwich: </li>
-                    <li>Assorted Bagels: </li>
-                    <li>Garden Salad: </li>
+                    <li>Breakfast Sandwich: Choice of sausage, bacon, or ham with egg and cheese on choice of bagel or flatbread.</li>
+                    <li>Assorted Bagels: Ask for choices of the day.</li>
+                    <li>Garden Salad</li>
                 </ul>
                 <hr>
                 <h6>Pastries</h6>
                 <ul>
-                    <li>Scones: </li>
-                    <li>Doughnuts: </li>
-                    <li>Cupcakes: </li>
-                    <li>Cakes: </li>
+                    <li>Scones</li>
+                    <li>Doughnuts</li>
+                    <li>Cupcakes</li>
+                    <li>Cakes</li>
                 </ul>
             </div>
         </div>
@@ -200,6 +199,10 @@
               // No overflow detected; prevent scroll bar
               element.style.overflow = 'hidden';
             }
+            
+            $( "#mySidenav" ).mouseleave(function() {
+              $( "#log" ).append( "<div>Handler for .mouseleave() called.</div>" );
+            });
         </script>
 
     </body>
