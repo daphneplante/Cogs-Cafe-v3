@@ -148,17 +148,9 @@ p {font-size: 14px;}
 }
 
 .hardwick4 {
-    background-image: url('assets/images/hardwick4.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    margin: 20px;
-}
-
-#map {
-    display:block;
-    width: 100%;
-    max-height: 100%;
+    display: block;
+    height: 350px;
+    margin: auto;
 }
 
 /*------------------------------Menu------------------------------*/
